@@ -7,7 +7,10 @@ class CreateCV extends Component{
 
     render(){
         return(
-            <h1>This is the create - cv section</h1>
+            <div className="createCV">
+                <h1 className="header">Create - CV section</h1>
+                <hr/>
+            </div>
         );
     }
 }

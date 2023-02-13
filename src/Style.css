@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.createCV{
+    flex: 1;
+    background-color: lightblue;
+}
+
+.previewCV{
+    flex: 1; 
+    background-color: lightcoral;
+}
+
+.header{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    .container{
+      flex-direction: column;
+      height: 200vh;
+    }
+  }

@@ -7,7 +7,10 @@ class PreviewCV extends Component{
 
     render(){
         return(
-            <h1>This is previewCV section</h1>
+            <div className="previewCV">
+                <h1 className="header">Preview - CV section</h1>
+                <hr/>
+            </div>
         )
     }
 }
