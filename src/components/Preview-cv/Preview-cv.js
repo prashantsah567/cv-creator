@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PreviewBio from "./Preview-bio";
 
 class PreviewCV extends Component{
     constructor(){
@@ -10,6 +11,7 @@ class PreviewCV extends Component{
             <div className="previewCV">
                 <h1 className="header">Preview - CV section</h1>
                 <hr/>
+                <PreviewBio bioText={this.state.bioText} />
             </div>
         )
     }

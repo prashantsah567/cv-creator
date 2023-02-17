@@ -1,5 +1,5 @@
-import CreateCV from "./components/Create-cv";
-import PreviewCV from "./components/preview-cv";
+import CreateCV from "./components/Create-cv/Create-cv";
+import PreviewCV from "./components/Preview-cv/Preview-cv";
 import "../src/Style.css";
 
 function App() {
