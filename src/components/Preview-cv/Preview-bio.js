@@ -5,7 +5,7 @@ class PreviewBio extends Component{
     render(){
         return(
             <>
-            {this.props.bioText}
+            <h3>{this.props.bioText}</h3>
             </>
         )
     }

@@ -28,6 +28,7 @@ export default class CreateBio extends Component{
                     type="text"
                     required />
                 </div>
+                <PreviewBio bioText={this.state.bioText} />
             </>
         )
     }

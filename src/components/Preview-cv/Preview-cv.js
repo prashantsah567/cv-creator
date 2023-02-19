@@ -11,7 +11,7 @@ class PreviewCV extends Component{
             <div className="previewCV">
                 <h1 className="header">Preview - CV section</h1>
                 <hr/>
-                <PreviewBio bioText={this.state.bioText} />
+                <PreviewBio />
             </div>
         )
     }
